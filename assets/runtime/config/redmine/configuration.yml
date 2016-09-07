@@ -15,7 +15,6 @@ default:
   email_delivery:
     delivery_method: :{{SMTP_METHOD}}
     {{SMTP_METHOD}}_settings:
-      enable_starttls_auto: {{SMTP_STARTTLS}}
       address: "{{SMTP_HOST}}"
       port: {{SMTP_PORT}}
       domain: "{{SMTP_DOMAIN}}"
